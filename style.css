@@ -1,0 +1,24 @@
+body {
+            font-family: Arial, sans-serif;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        li {
+            margin: 8px 0;
+            padding: 6px;
+            background: #f0f0f0;
+            border: 1px solid #ccc;
+            cursor: grab;
+        }
+        
+        li.dragging {
+            opacity: 0.5;
+        }
+        
+        button {
+            margin-left: 8px;
+        }
